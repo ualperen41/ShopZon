@@ -45,7 +45,7 @@ Projeyi kendi bilgisayarında çalıştırmak için şu adımları takip et:
 
 # Depoyu klonla
 
-git clone https://github.com/kullaniciadi/shopzon.git
+git clone https://github.com/ualperen41/ShopZon
 
 # Proje klasörüne gir
 
