@@ -1,16 +1,60 @@
-# React + Vite
+🛍️ ShopZon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopZon, React ve Vite kullanılarak geliştirilmiş modern bir e-ticaret web uygulamasıdır.
+Kullanıcılar ürünleri görüntüleyebilir, kategorilere göre filtreleme yapabilir, arama çubuğuyla ürün arayabilir ve sepetlerine ekleme işlemi gerçekleştirebilirler.
 
-Currently, two official plugins are available:
+🖼️ Ekran Görüntüsü
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](./ShopZon.gif)
 
-## React Compiler
+🚀 Özellikler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔍 Ürün arama (API tabanlı dinamik arama)
 
-## Expanding the ESLint configuration
+🏷️ Kategoriye göre filtreleme
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛒 Sepete ürün ekleme ve çıkarma
+
+📦 Ürün detay sayfası
+
+⚡ Hızlı geliştirme ortamı (Vite)
+
+🧠 Global state yönetimi (Redux Toolkit)
+
+🧾 API üzerinden veri çekme (FakeStore API)
+
+💅 Modern ve responsive tasarım
+
+🧩 Kullanılan Teknolojiler
+
+⚛️ React-Kullanıcı arayüzü
+
+⚡ Vite-Geliştirme ortamı
+
+🧠 Redux Toolkit-State yönetimi
+
+🌐 Axios / Fetch API-Veri çekme
+
+💅 CSS / Tailwind-Stil düzenlemeleri
+
+🛍️ FakeStore API-Sahte ürün verileri için API
+
+📦 Kurulum
+
+Projeyi kendi bilgisayarında çalıştırmak için şu adımları takip et:
+
+# Depoyu klonla
+
+git clone https://github.com/kullaniciadi/shopzon.git
+
+# Proje klasörüne gir
+
+cd shopzon
+
+# Bağımlılıkları yükle
+
+npm install
+
+# Geliştirme sunucusunu başlat
+
+npm run dev

@@ -10,7 +10,7 @@ const Sorting = ({ setSort }) => {
         <option disabled value="">
           SEÇİNİZ
         </option>
-        <option value="asc">ARTAN</option>
+        <option value="inc">ARTAN</option>
         <option value="dec">AZALAN</option>
       </select>
     </div>
